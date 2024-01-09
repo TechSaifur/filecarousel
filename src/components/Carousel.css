@@ -1,0 +1,51 @@
+.img-carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+}
+
+.box {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-box {
+  width: 600px;
+  overflow: hidden;
+}
+
+.back {
+  font-size: 40px;
+  color: gray;
+  opacity: 0;
+}
+
+.back:hover {
+  opacity: 1;
+}
+
+.next {
+  font-size: 40px;
+  color: gray;
+  opacity: 0;
+}
+
+.next:hover {
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.pdf-box {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
